@@ -406,14 +406,19 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  gap: 36px;
 
 }
 
 .about__content {
-  padding: 30px;
+  padding: 20px 30px;
   width: 90%;
   font-size: 20px;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 350px;
 }
 
 .about a {
@@ -422,6 +427,13 @@ h1 {
 
 .about__img {
   max-width: 350px;
+}
+
+.about__img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 h3 {
@@ -456,11 +468,14 @@ h3 {
     margin: 0 auto;
     background: RGB(29, 29, 29);
     padding: 5% 5% 0;
+    gap: 0;
     /* Adjusted padding */
   }
 
   .about__content {
     padding: 0;
+    min-height: unset;
+    display: block;
     /* Adjusted padding */
     text-align: center;
     /* Center text inside .about__content */
@@ -474,13 +489,14 @@ h3 {
   }
 
   .about__img {
-    padding-left: 15%;
+    padding-left: 0;
     padding-bottom: 10%;
     display: block;
     /* Ensures the image behaves as a block element */
     margin: 0 auto;
     /* Centers the image horizontally */
     width: 100%;
+    max-width: 300px;
   }
 
 
@@ -601,114 +617,126 @@ h3 {
   background: RGB(29, 29, 29);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100%;
-  padding: 15%;
-  padding-top: 100px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 8% 60px;
 }
 
 .portfolio h2 {
-  background-color: RGB(29, 29, 29);
   color: #fff;
-  justify-content: left;
-  align-items: left;
-
+  margin-bottom: 0.5rem;
 }
 
 .portfolio p {
   color: #fff;
+  line-height: 1.7;
 }
 
 .portfolio__container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(140, 173, 167, 0.12);
+}
 
+.portfolio__container:last-of-type {
+  border-bottom: none;
+}
+
+.portfolio__image {
+  flex: 0 0 250px;
+}
+
+.portfolio__image a,
+.portfolio__image img {
+  display: block;
+}
+
+.portfolio__image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolio__image-stack img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(140, 173, 167, 0.2);
+}
+
+.portfolio__image img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(140, 173, 167, 0.2);
 }
 
 .portfolio__content {
-  padding: 30px;
-  width: 90%;
+  flex: 1;
   font-size: 1rem;
-  padding-left: 10px;
+  padding: 0;
 }
 
 .portfolio a {
-  color: #8CADA7
+  color: #8CADA7;
+  text-decoration: none;
 }
 
-img {
-  width: 70%;
-  height: 70%;
+.portfolio a:hover {
+  text-decoration: underline;
 }
 
-h3 {
+.portfolio h3 {
   font-size: 12px;
   font-weight: 300;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 2px;
   color: #fff;
 }
 
-
 @media screen and (max-width: 1000px) {
 
   .portfolio {
-    background: RGB(29, 29, 29);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 5%;
-    padding-top: 100px;
+    padding: 100px 5% 40px;
   }
 
   .portfolio__container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 14px;
+    padding: 22px 0;
+  }
+
+  .portfolio__image,
+  .portfolio__image img {
+    max-width: 320px;
     width: 100%;
-    margin: 0 auto;
-    height: 90%;
   }
 
   .portfolio__content {
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
   }
 
   .portfolio p {
     font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
   .portfolio h2 {
-    align-items: center;
-    justify-content: center;
     text-align: center;
   }
 
   .portfolio h3 {
     text-align: center;
   }
-
-  img {
-    padding-top: 5%;
-    display: block;
-    /* Ensures the image behaves as a block element */
-    margin: 0 auto;
-    /* Centers the image horizontally */
-    width: 70%;
-  }
-
 
 }
 

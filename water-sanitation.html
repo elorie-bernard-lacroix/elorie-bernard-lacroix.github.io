@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Sanitation System | Elorie Bernard-Lacroix</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/20bf466d98.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+  <style>
+    /* ── Wildcard reset for all page-specific sections ─────────────────────── */
+    .project-hero *,
+    .project-overview *,
+    .how-it-works *,
+    .team-section *,
+    .back-section *,
+    .breadcrumb * {
+      background: transparent;
+    }
+
+    /* Re-apply backgrounds on containers that need them */
+
+    .step                 { background: rgba(255, 255, 255, 0.03); }
+    .team-card            { background: rgba(255, 255, 255, 0.03); }
+
+    /* ── Project tag ─────────────────────────────────────────────────────────── */
+    .project-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #8CADA7;
+      border: 1px solid rgba(140, 173, 167, 0.4);
+      border-radius: 4px;
+      padding: 4px 10px;
+      margin-bottom: 16px;
+    }
+
+    /* ── Hero ────────────────────────────────────────────────────────────────── */
+    .project-hero {
+      background: RGB(29, 29, 29);
+      padding: 140px 10% 48px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .project-hero h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      background: linear-gradient(200deg, #f9f9f9, #8cada7, #a5d0a8) !important;
+      background-size: 400% 400% !important;
+      -webkit-background-clip: text !important;
+      -moz-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      -moz-text-fill-color: transparent !important;
+      animation: Gradient 8s ease infinite;
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+
+    .project-hero .hero-subtitle {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1rem;
+      margin-bottom: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .project-hero .hero-subtitle a {
+      color: #8CADA7;
+      text-decoration: none;
+    }
+
+    /* ── Breadcrumb ──────────────────────────────────────────────────────────── */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 24px;
+      font-size: 0.85rem;
+    }
+
+    .breadcrumb a {
+      color: rgba(255, 255, 255, 0.45);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb a:hover { color: #8CADA7; }
+
+    .breadcrumb .sep   { color: rgba(255, 255, 255, 0.2); }
+    .breadcrumb .curr  { color: rgba(255, 255, 255, 0.75); }
+
+    /* ── Section divider ─────────────────────────────────────────────────────── */
+    .section-divider {
+      border: none;
+      border-top: 1px solid rgba(140, 173, 167, 0.1);
+      margin: 0;
+    }
+
+    /* ── Overview ────────────────────────────────────────────────────────────── */
+    .project-overview {
+      background: RGB(29, 29, 29);
+      padding: 48px 10% 80px;
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      gap: 60px;
+      align-items: flex-start;
+    }
+
+    .project-overview-text { flex: 1; }
+
+    .project-overview-text h2 {
+      font-size: 1.6rem;
+      color: #8CADA7;
+      margin-bottom: 1.2rem;
+    }
+
+    .project-overview-text p {
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 0.95rem;
+      line-height: 1.85;
+      margin-bottom: 1rem;
+    }
+
+    .project-overview-text strong {
+      color: #8CADA7;
+    }
+
+    .project-overview-image {
+      flex: 0 0 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(140, 173, 167, 0.2);
+      margin-top: 3.2rem;
+    }
+
+    .project-overview-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ── How it works ────────────────────────────────────────────────────────── */
+    .how-it-works {
+      background: RGB(29, 29, 29);
+      padding: 80px 10%;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .how-it-works h2 {
+      font-size: 1.6rem;
+      color: #8CADA7;
+      margin-bottom: 2rem;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .step {
+      border: 1px solid rgba(140, 173, 167, 0.15);
+      border-radius: 12px;
+      padding: 24px;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+
+    .step:hover {
+      border-color: rgba(140, 173, 167, 0.5);
+      transform: translateY(-4px);
+    }
+
+    .step-number {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: rgba(140, 173, 167, 0.3);
+      margin-bottom: 10px;
+    }
+
+    .step h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 6px;
+      letter-spacing: normal;
+    }
+
+    .step p {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.55);
+      line-height: 1.65;
+    }
+
+    /* ── Team ────────────────────────────────────────────────────────────────── */
+    .team-section {
+      background: RGB(29, 29, 29);
+      padding: 80px 10%;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .team-section h2 {
+      font-size: 1.6rem;
+      color: #8CADA7;
+      margin-bottom: 2rem;
+    }
+
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .team-card {
+      border: 1px solid rgba(140, 173, 167, 0.2);
+      border-radius: 8px;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .team-card i   { color: #8CADA7; font-size: 1rem; }
+    .team-card span { color: #fff; font-size: 0.9rem; }
+
+    /* ── File browser section ────────────────────────────────────────────────── */
+    .files-section {
+      background: RGB(29, 29, 29);
+      padding: 80px 10%;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .files-section > h2 {
+      font-size: 1.6rem;
+      color: #8CADA7;
+      background: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .files-section .section-desc {
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 0.88rem;
+      margin-bottom: 2rem;
+      background: transparent;
+      line-height: 1.7;
+    }
+
+    .files-section .section-desc span {
+      color: #8CADA7;
+      background: transparent;
+    }
+
+    /* File explorer chrome */
+    .file-explorer {
+      background: #161616;
+      border-radius: 12px;
+      border: 1px solid rgba(140, 173, 167, 0.2);
+      overflow: hidden;
+    }
+
+    .file-explorer-toolbar {
+      background: rgba(140, 173, 167, 0.06);
+      border-bottom: 1px solid rgba(140, 173, 167, 0.12);
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .toolbar-icon {
+      color: rgba(255, 255, 255, 0.25);
+      font-size: 0.85rem;
+      background: transparent;
+    }
+
+    .file-search {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(140, 173, 167, 0.22);
+      border-radius: 6px;
+      color: #fff;
+      padding: 7px 12px;
+      font-family: Hind, sans-serif;
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .file-search::placeholder { color: rgba(255, 255, 255, 0.28); }
+    .file-search:focus         { border-color: rgba(140, 173, 167, 0.55); }
+
+    .expand-all-btn {
+      background: transparent;
+      border: 1px solid rgba(140, 173, 167, 0.28);
+      border-radius: 6px;
+      color: rgba(140, 173, 167, 0.65);
+      padding: 7px 14px;
+      font-family: Hind, sans-serif;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .expand-all-btn:hover {
+      border-color: #8CADA7;
+      color: #8CADA7;
+      background: rgba(140, 173, 167, 0.05);
+    }
+
+    /* Scrollable tree */
+    .file-tree {
+      padding: 10px 0;
+      max-height: 560px;
+      overflow-y: auto;
+      background: transparent;
+    }
+
+    .file-tree::-webkit-scrollbar       { width: 5px; }
+    .file-tree::-webkit-scrollbar-track { background: transparent; }
+    .file-tree::-webkit-scrollbar-thumb { background: rgba(140,173,167,0.2); border-radius: 3px; }
+
+    /* Tree nodes */
+    .tree-node { background: transparent; }
+
+    .tree-node-row {
+      display: flex;
+      align-items: center;
+      padding: 7px 18px;
+      gap: 8px;
+      background: transparent;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .tree-node-row:hover { background: rgba(140, 173, 167, 0.07); }
+
+    .tree-chevron {
+      width: 14px;
+      font-size: 0.6rem;
+      color: rgba(255, 255, 255, 0.28);
+      flex-shrink: 0;
+      background: transparent;
+      transition: transform 0.2s;
+    }
+
+    .tree-node.open > .tree-node-row .tree-chevron {
+      transform: rotate(90deg);
+      color: rgba(140, 173, 167, 0.6);
+    }
+
+    .tree-icon {
+      width: 18px;
+      font-size: 0.88rem;
+      text-align: center;
+      flex-shrink: 0;
+      background: transparent;
+    }
+
+    .icon-folder { color: #e8c97a; }
+    .icon-pdf    { color: #e56b6b; }
+    .icon-code   { color: #7eb8f5; }
+    .icon-image  { color: #a8d8a8; }
+    .icon-video  { color: #c87af7; }
+    .icon-excel  { color: #5cbb7a; }
+    .icon-cad    { color: #f5a26b; }
+    .icon-doc    { color: #8CADA7; }
+
+    .tree-name {
+      flex: 1;
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.82);
+      background: transparent;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .tree-node-row:hover .tree-name { color: #fff; }
+
+    .tree-badge {
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      flex-shrink: 0;
+      background: rgba(140, 173, 167, 0.1);
+      color: rgba(140, 173, 167, 0.65);
+      border: 1px solid rgba(140, 173, 167, 0.22);
+    }
+
+    .tree-children { background: transparent; }
+
+    /* ── Back link ───────────────────────────────────────────────────────────── */
+    .back-section {
+      background: RGB(29, 29, 29);
+      padding: 20px 10% 80px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255, 255, 255, 0.45);
+      text-decoration: none;
+      font-size: 0.88rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 10px 20px;
+      transition: all 0.3s;
+      background: transparent;
+    }
+
+    .back-link i { background: transparent; }
+
+    .back-link:hover {
+      color: #8CADA7;
+      border-color: rgba(140, 173, 167, 0.4);
+      background: rgba(140, 173, 167, 0.04);
+    }
+
+    /* ── Responsive ──────────────────────────────────────────────────────────── */
+    @media screen and (max-width: 900px) {
+      .project-hero  { padding: 120px 5% 60px; }
+      .project-overview {
+        flex-direction: column;
+        padding: 50px 5%;
+      }
+      .project-overview-image {
+        flex: unset;
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+      }
+      .how-it-works,
+      .team-section,
+      .files-section { padding: 60px 5%; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── Navbar ─────────────────────────────────────────────────────────────── -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="index.html#home" id="navbar__logo">e b l</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html#about" class="navbar__links">about</a>
+        </li>
+        <li class="navbar__item">
+          <a href="index.html#experience" class="navbar__links">experience</a>
+        </li>
+        <li class="navbar__item">
+          <a href="index.html#portfolio" class="navbar__links">portfolio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="index.html#contact" class="navbar__links">contact</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="Resume.pdf" class="button" target="_blank">résumé</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ───────────────────────────────────────────────────────────────── -->
+  <div class="project-hero">
+    <div class="breadcrumb">
+      <a href="index.html">home</a>
+      <span class="sep">/</span>
+      <a href="index.html#portfolio">portfolio</a>
+      <span class="sep">/</span>
+      <span class="curr">water sanitation system</span>
+    </div>
+    <span class="project-tag">ESC204 Praxis III &nbsp;·&nbsp; University of Toronto &nbsp;·&nbsp; Winter 2024</span>
+    <h1>Automated Water<br>Sanitation System</h1>
+    <p class="hero-subtitle">
+      Embedded Programming &nbsp;&middot;&nbsp; CAD &amp; 3D Printing &nbsp;&middot;&nbsp; Hardware Integration &nbsp;&middot;&nbsp; Systems Engineering &nbsp;&middot;&nbsp; Iterative Prototyping &nbsp;&middot;&nbsp; Team Collaboration
+    </p>
+  </div>
+
+  <!-- ── Overview ───────────────────────────────────────────────────────────── -->
+  <div class="project-overview">
+    <div class="project-overview-text">
+      <h2>Project Overview</h2>
+      <p>
+        For ESC204 Praxis III, our eight-person team was challenged to prototype a solution to a real-world
+        access-to-clean-water problem. We designed and built an
+        <strong>automated water sanitation system</strong> that heats water to a specified pasteurization
+        temperature, holds it there for a defined duration, and then automatically dispenses the treated
+        water into a potable water tank — no manual intervention needed after the cycle starts.
+      </p>
+      <p>
+        The system integrates a <strong>DS18B20 temperature sensor</strong>, a relay-controlled heating element,
+        and a motor-driven dispensing mechanism — all coordinated by a microcontroller running custom
+        <strong>Arduino firmware</strong>. All structural components were designed in
+        <strong>Fusion 360</strong> and fabricated via 3D printing. Project coordination and documentation
+        were managed in Notion.
+      </p>
+      <p>
+        This page hosts all project files for public access — use the file browser below to explore
+        reports, CAD models, source code, and meeting notes.
+      </p>
+    </div>
+    <div class="project-overview-image">
+      <img src="WaterSan.png" alt="Water sanitation system prototype">
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- ── How it works ───────────────────────────────────────────────────────── -->
+  <div class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">01</div>
+        <h3>Fill</h3>
+        <p>Raw water is loaded into the heating chamber via the inlet, either manually or through a valve.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">02</div>
+        <h3>Heat</h3>
+        <p>The heating element raises the water to 70 °C, monitored continuously by the temperature sensor.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <h3>Hold</h3>
+        <p>Water is maintained at pasteurization temperature for 30 seconds to fully inactivate pathogens.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">04</div>
+        <h3>Dispense</h3>
+        <p>A motor-driven mechanism automatically dispenses the safe, treated water into a clean storage tank.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- ── Team ───────────────────────────────────────────────────────────────── -->
+  <div class="team-section">
+    <h2>The Team</h2>
+    <div class="team-grid">
+      <div class="team-card"><i class="fas fa-user"></i><span>Elorie Bernard-Lacroix</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Jessica M.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Hyunji K.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Preetinder S.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Kristen M.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Seoyun Y.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Kumkum C.</span></div>
+      <div class="team-card"><i class="fas fa-user"></i><span>Joaquin C.</span></div>
+    </div>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- ── File Browser ───────────────────────────────────────────────────────── -->
+  <div class="files-section">
+    <h2>Project Files</h2>
+    <p class="section-desc">
+      All project files are hosted here as a public mirror of our SharePoint repository.
+      Click a folder to expand it and a file name to download or view it.
+      Entries marked <span>template</span> are placeholders — the real file will appear once uploaded.
+    </p>
+
+    <div class="file-explorer">
+      <div class="file-explorer-toolbar">
+        <i class="fas fa-search toolbar-icon"></i>
+        <input type="text" class="file-search" id="fileSearch" placeholder="Search files…" autocomplete="off">
+        <button class="expand-all-btn" id="expandAllBtn">expand all</button>
+      </div>
+      <div class="file-tree" id="fileTree">
+        <div style="padding: 24px 20px; color: rgba(255,255,255,0.28); font-size: 0.88rem; background: transparent;">
+          Loading files…
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Back ───────────────────────────────────────────────────────────────── -->
+  <div class="back-section">
+    <a href="index.html#portfolio" class="back-link">
+      <i class="fas fa-arrow-left"></i>
+      back to portfolio
+    </a>
+  </div>
+
+  <!-- ── Scripts ────────────────────────────────────────────────────────────── -->
+  <script>
+    // ── Mobile menu (standalone – avoids mixitup dependency in app.js) ────────
+    const menu      = document.querySelector('#mobile-menu');
+    const menuLinks = document.querySelector('.navbar__menu');
+    const navLogo   = document.querySelector('#navbar__logo');
+
+    menu.addEventListener('click', () => {
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+    });
+
+    [menuLinks, navLogo].forEach(el =>
+      el.addEventListener('click', () => {
+        if (window.innerWidth <= 768 && menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+          menuLinks.classList.remove('active');
+        }
+      })
+    );
+
+    // ── File icon map ─────────────────────────────────────────────────────────
+    function getFileIcon(ext) {
+      const map = {
+        pdf:  { cls: 'icon-pdf',   fa: 'fas fa-file-pdf'   },
+        xlsx: { cls: 'icon-excel', fa: 'fas fa-file-excel' },
+        xls:  { cls: 'icon-excel', fa: 'fas fa-file-excel' },
+        csv:  { cls: 'icon-excel', fa: 'fas fa-file-csv'   },
+        ino:  { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        py:   { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        cpp:  { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        c:    { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        js:   { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        json: { cls: 'icon-code',  fa: 'fas fa-file-code'  },
+        md:   { cls: 'icon-doc',   fa: 'fas fa-file-alt'   },
+        txt:  { cls: 'icon-doc',   fa: 'fas fa-file-alt'   },
+        jpg:  { cls: 'icon-image', fa: 'fas fa-file-image' },
+        jpeg: { cls: 'icon-image', fa: 'fas fa-file-image' },
+        png:  { cls: 'icon-image', fa: 'fas fa-file-image' },
+        gif:  { cls: 'icon-image', fa: 'fas fa-file-image' },
+        mp4:  { cls: 'icon-video', fa: 'fas fa-file-video' },
+        mov:  { cls: 'icon-video', fa: 'fas fa-file-video' },
+        f3d:  { cls: 'icon-cad',   fa: 'fas fa-cube'       },
+        step: { cls: 'icon-cad',   fa: 'fas fa-cube'       },
+        stl:  { cls: 'icon-cad',   fa: 'fas fa-cube'              },
+        '3mf':{ cls: 'icon-cad',   fa: 'fas fa-cube'              },
+        dwg:  { cls: 'icon-cad',   fa: 'fas fa-drafting-compass'  },
+        docx: { cls: 'icon-doc',   fa: 'fas fa-file-word'         },
+        doc:  { cls: 'icon-doc',   fa: 'fas fa-file-word'         },
+        pptx: { cls: 'icon-doc',   fa: 'fas fa-file-powerpoint'   },
+        ppt:  { cls: 'icon-doc',   fa: 'fas fa-file-powerpoint'   },
+        vsdx: { cls: 'icon-doc',   fa: 'fas fa-project-diagram'   },
+        url:  { cls: 'icon-doc',   fa: 'fas fa-external-link-alt' },
+      };
+      return map[(ext || '').toLowerCase()] || { cls: 'icon-doc', fa: 'fas fa-file' };
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────────────
+    function escHtml(str) {
+      const d = document.createElement('div');
+      d.appendChild(document.createTextNode(str));
+      return d.innerHTML;
+    }
+
+    function countFiles(node) {
+      if (!node.children) return 0;
+      return node.children.reduce((acc, child) =>
+        acc + (child.type === 'file' ? 1 : countFiles(child)), 0);
+    }
+
+    // ── Build a tree node element ─────────────────────────────────────────────
+    function buildNode(node, depth) {
+      depth = depth || 0;
+      const wrapper = document.createElement('div');
+      wrapper.className = 'tree-node';
+      wrapper.style.background = 'transparent';
+
+      const indent = 18 + depth * 22;
+
+      if (node.type === 'folder') {
+        wrapper.classList.add('folder');
+
+        // Row
+        const row = document.createElement('div');
+        row.className = 'tree-node-row';
+        row.style.paddingLeft = indent + 'px';
+
+        const fileCount = countFiles(node);
+        row.innerHTML =
+          `<i class="fas fa-chevron-right tree-chevron"></i>` +
+          `<i class="fas fa-folder tree-icon icon-folder"></i>` +
+          `<span class="tree-name">${escHtml(node.name)}</span>` +
+          `<span class="tree-badge">${fileCount} file${fileCount !== 1 ? 's' : ''}</span>`;
+
+        // Children container
+        const children = document.createElement('div');
+        children.className = 'tree-children';
+        children.style.display = 'none';
+
+        if (node.children) {
+          node.children.forEach(child => children.appendChild(buildNode(child, depth + 1)));
+        }
+
+        row.addEventListener('click', () => {
+          const isOpen = wrapper.classList.toggle('open');
+          children.style.display = isOpen ? 'block' : 'none';
+          const folderIcon = row.querySelector('.fa-folder, .fa-folder-open');
+          if (folderIcon) {
+            folderIcon.className =
+              `fas fa-folder${isOpen ? '-open' : ''} tree-icon icon-folder`;
+          }
+        });
+
+        wrapper.appendChild(row);
+        wrapper.appendChild(children);
+
+      } else {
+        // File
+        const ext      = (node.name.split('.').pop() || '').toLowerCase();
+        const iconInfo = getFileIcon(ext);
+        const hasFile  = node.path && !node.isTemplate;
+
+        const row = document.createElement('a');
+        row.className = 'tree-node-row';
+        row.style.paddingLeft = (indent + 14) + 'px';
+
+        if (hasFile) {
+          row.href   = node.path;
+          row.target = '_blank';
+          row.rel    = 'noopener noreferrer';
+        } else {
+          row.href = '#';
+          row.style.opacity = '0.5';
+          row.style.cursor  = 'default';
+          row.addEventListener('click', e => e.preventDefault());
+        }
+
+        const badge = node.isTemplate
+          ? `<span class="tree-badge">template</span>` : '';
+
+        row.innerHTML =
+          `<span class="tree-chevron"></span>` +
+          `<i class="${iconInfo.fa} tree-icon ${iconInfo.cls}"></i>` +
+          `<span class="tree-name">${escHtml(node.name)}</span>` +
+          badge;
+
+        wrapper.appendChild(row);
+      }
+
+      return wrapper;
+    }
+
+    // ── Expand / collapse all ─────────────────────────────────────────────────
+    let allExpanded = false;
+    document.getElementById('expandAllBtn').addEventListener('click', () => {
+      allExpanded = !allExpanded;
+      document.querySelectorAll('.tree-node.folder').forEach(node => {
+        const children  = node.querySelector(':scope > .tree-children');
+        const row       = node.querySelector(':scope > .tree-node-row');
+        const folderIco = row && row.querySelector('.fa-folder, .fa-folder-open');
+
+        if (children) children.style.display = allExpanded ? 'block' : 'none';
+        node.classList.toggle('open', allExpanded);
+        if (folderIco) {
+          folderIco.className =
+            `fas fa-folder${allExpanded ? '-open' : ''} tree-icon icon-folder`;
+        }
+      });
+      document.getElementById('expandAllBtn').textContent =
+        allExpanded ? 'collapse all' : 'expand all';
+    });
+
+    // ── Search / filter ───────────────────────────────────────────────────────
+    document.getElementById('fileSearch').addEventListener('input', function () {
+      filterTree(this.value.trim().toLowerCase());
+    });
+
+    function filterTree(q) {
+      const allNodes = document.querySelectorAll('#fileTree .tree-node');
+
+      if (!q) {
+        allNodes.forEach(n => (n.style.display = ''));
+        document.querySelectorAll('.tree-node.folder:not(.open) > .tree-children')
+          .forEach(c => (c.style.display = 'none'));
+        return;
+      }
+
+      allNodes.forEach(n => (n.style.display = 'none'));
+
+      document.querySelectorAll('#fileTree .tree-node:not(.folder)').forEach(fileNode => {
+        const nameEl = fileNode.querySelector('.tree-name');
+        if (!nameEl) return;
+        if (!nameEl.textContent.toLowerCase().includes(q)) return;
+
+        // Reveal this node and all ancestor folder nodes
+        let el = fileNode;
+        while (el) {
+          el.style.display = '';
+          if (el.classList.contains('folder')) {
+            const kids = el.querySelector(':scope > .tree-children');
+            if (kids) kids.style.display = 'block';
+          }
+          el = el.parentElement && el.parentElement.closest('.tree-node');
+        }
+      });
+    }
+
+    // ── Fetch and render the file tree ────────────────────────────────────────
+    fetch('water-sanitation/files.json')
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.json();
+      })
+      .then(data => {
+        const treeEl = document.getElementById('fileTree');
+        treeEl.innerHTML = '';
+        (data.children || []).forEach(node => treeEl.appendChild(buildNode(node, 0)));
+      })
+      .catch(() => {
+        document.getElementById('fileTree').innerHTML =
+          `<div style="padding:24px 20px;color:rgba(255,255,255,0.35);font-size:0.88rem;background:transparent;">
+            <i class="fas fa-info-circle" style="color:#8CADA7;background:transparent;margin-right:8px;"></i>
+            Files will appear here once the site is deployed to GitHub Pages.
+            To preview locally, serve with a local HTTP server (e.g.&nbsp;<code style="color:#8CADA7;background:transparent;">npx serve .</code>).
+          </div>`;
+      });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿{
+  "name": "SmartStudy",
+  "type": "folder",
+  "children": [
+    {
+      "name": "SmartStudy_Final_Report.pdf",
+      "type": "file",
+      "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/reports/SmartStudy_Final_Report.pdf",
+      "isTemplate": false
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/README.md",
+      "isTemplate": false
+    },
+    {
+      "name": "notebooks",
+      "type": "folder",
+      "children": [
+        { "name": "1.01-data-preprocessing.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/1.01-data-preprocessing.ipynb", "isTemplate": false },
+        { "name": "2.01-exploratory-data-analysis.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/2.01_exploratorydataanalysis.ipynb", "isTemplate": false },
+        { "name": "3.01-baseline-model.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.01_baseline-model.ipynb", "isTemplate": false },
+        { "name": "3.11-tree-based-models.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.11-tree-based-models.ipynb", "isTemplate": false },
+        { "name": "3.12-neural-networks.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.12-neural-networks.ipynb", "isTemplate": false },
+        { "name": "3.13-evaluation.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.13-evaluation.ipynb", "isTemplate": false },
+        { "name": "3.14-ensemble-tabnet-1dcnn.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.14-ensemble-tabnet-1dcnn.ipynb", "isTemplate": false },
+        { "name": "3.15-ensemble-TabPFN-XGBoost.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.15-ensemble-TabPFN-XGBoost.ipynb", "isTemplate": false },
+        { "name": "3.16-ensemble-stacked.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.16-ensemble-stacked.ipynb", "isTemplate": false },
+        { "name": "3.17-evaluation-v2.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.17-evaluation-v2.ipynb", "isTemplate": false },
+        { "name": "3.21-study-habit-optimizer.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.21-study-habit-opt.ipynb", "isTemplate": false },
+        { "name": "3.31-knn-model.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.31-knn-model.ipynb", "isTemplate": false },
+        { "name": "3.41-gpt-text-generation.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.41-gpt-text-generation.ipynb", "isTemplate": false },
+        { "name": "3.51-final-model.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.51-final-model%20.ipynb", "isTemplate": false },
+        { "name": "3.52-final-model-v2.ipynb", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/notebooks/3.52-final-model-v2.ipynb", "isTemplate": false }
+      ]
+    },
+    {
+      "name": "source code",
+      "type": "folder",
+      "children": [
+        { "name": "app.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/app.py", "isTemplate": false },
+        { "name": "config.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/config.py", "isTemplate": false },
+        { "name": "dataset.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/dataset.py", "isTemplate": false },
+        { "name": "features.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/features.py", "isTemplate": false },
+        { "name": "generate_scaler.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/generate_scaler.py", "isTemplate": false },
+        { "name": "plots.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/plots.py", "isTemplate": false },
+        {
+          "name": "modeling",
+          "type": "folder",
+          "children": [
+            { "name": "optimizer.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/modeling/optimizer.py", "isTemplate": false },
+            { "name": "knn_matching.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/modeling/knn_matching.py", "isTemplate": false },
+            { "name": "gpt_utils.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/modeling/gpt_utils.py", "isTemplate": false },
+            { "name": "train_tabpfn.py", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/smartstudy/modeling/train_tabpfn.py", "isTemplate": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "folder",
+      "children": [
+        { "name": "database.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/raw/database.csv", "isTemplate": false },
+        { "name": "processed_data.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/processed/processed_data.csv", "isTemplate": false },
+        { "name": "train_features.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/processed/train_features.csv", "isTemplate": false },
+        { "name": "train_labels.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/processed/train_labels.csv", "isTemplate": false },
+        { "name": "test_features.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/processed/test_features.csv", "isTemplate": false },
+        { "name": "test_labels.csv", "type": "file", "path": "https://github.com/elorie-bernard-lacroix/SmartStudy/blob/main/data/processed/test_labels.csv", "isTemplate": false }
+      ]
+    }
+  ]
+}

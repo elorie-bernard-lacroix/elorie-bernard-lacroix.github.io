@@ -61,7 +61,7 @@
         <li><span>an engineering student at UofT</span></li>
         <li><span>an avid reader and ponderer</span></li>
         <li><span>an aspiring robotics and AI engineer</span></li>
-        <li><span>an insatiable learner</span></li>
+        <li><span>an environmentalist</span></li>
       </ul>
     </div>
 
@@ -155,111 +155,111 @@
     <div class="portfolio" id="portfolio">
       <h1>portfolio</h1>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="WaterSan.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <a href="smart-study.html">
+            <img src="SmartStudy.png" alt="SmartStudy application screenshot">
+          </a>
+        </div>
+        <div class="portfolio__content">
+          <h2>SmartStudy: Personalized study habit recommender</h2>
+          <h3>Course Project @ University of Toronto (ECE324 Machine Intelligence Applications). Team: StudyArchitects.</h3>
+          <p>A machine learning tool that takes a student's current study habits and a target GPA, then recommends the minimal lifestyle changes needed to get there. The pipeline combines a TabPFN GPA predictor, a numerical optimizer, KNN peer matching, and GPT-4 text generation, all wrapped in a Gradio web app. <a href="smart-study.html">View the full project page →</a></p>
+        </div>
+      </article>
+
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <a href="panda-possum.html" class="portfolio__image-stack">
+            <img src="cc-excel.png" alt="PANDA-POSSUM Excel setup screenshot">
+            <img src="canoe.png" alt="PANDA-POSSUM canoe model screenshot">
+          </a>
+        </div>
+        <div class="portfolio__content">
+          <h2>PANDA-POSSUM: Canoe generator and optimizer</h2>
+          <h3>University of Toronto Concrete Canoe Team. Hull &amp; Structural Members: Albert, Elorie, Folu, John, Lucas, Elliot.</h3>
+          <p>A Python-based hull generation and analysis workflow that evaluates canoe geometry across race loadcases, computes hydrodynamic and stability metrics, and scores each variant against weighted target values. The bulk mode runs parameter sweeps in parallel, then POSSUM narrows the next search window using golden-ratio style updates. <a href="panda-possum.html">View the full project page →</a></p>
+        </div>
+      </article>
+
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <a href="water-sanitation.html">
+            <img src="WaterSan.png" alt="Water sanitation system prototype">
+          </a>
         </div>
         <div class="portfolio__content">
           <h2>Automated water sanitation system</h2>
-          <h3>Course Project @ University of Toronto (ESC204 Praxis III). With Jessica M., Hyunji K., Preetinder S.,
-            Kristen M., Seoyun Y., Kumkum C., and Joaquin C.</h3>
-          <p>With the use of 3D printing, sensors, motors, and online tools such as Fusion360 and Notion, my team and I
-            prototyped a system that could heat water to a specified temperature, for a given time, and then
-            automatically dispense it to a tank of potable water. A presentation page for this project is coming soon!
-          </p>
+          <h3>Course Project @ University of Toronto (ESC204 Praxis III). With Jessica M., Hyunji K., Preetinder S., Kristen M., Seoyun Y., Kumkum C., and Joaquin C.</h3>
+          <p>With the use of 3D printing, sensors, motors, and online tools such as Fusion360 and Notion, my team and I prototyped a system that could heat water to a specified temperature, for a given time, and then automatically dispense it to a tank of potable water. <a href="water-sanitation.html">View the full project page →</a></p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="download.gif">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="download.gif" alt="Seam carving visualization">
         </div>
         <div class="portfolio__content">
           <h2>Seam-carving program</h2>
-          <h3>Course Project @ University of Toronto (ESC190 Data Structures & Algorithms). With Chaewon L.</h3>
-          <p>This C program uses dynamic programming to identify vertical paths of pixels in an image that can be
-            removed without distorting the image. It can continue to remove these less important paths one by one,
-            gradually making the image less wide without distorting it or removing meaningful aspects of it. For more
-            details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC190-Project-2">GitHub
-              repository</a>.</p>
+          <h3>Course Project @ University of Toronto (ESC190 Data Structures &amp; Algorithms). With Chaewon L.</h3>
+          <p>This C program uses dynamic programming to identify vertical paths of pixels in an image that can be removed without distorting the image. It can continue to remove these less important paths one by one, gradually making the image less wide without distorting it or removing meaningful aspects of it. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC190-Project-2">GitHub repository</a>.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="bridge plots.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="bridge plots.png" alt="Bridge load analysis plots">
         </div>
         <div class="portfolio__content">
           <h2>MATLAB Script that predicts the failure load of a specified bridge</h2>
-          <h3>Final Project @ University of Toronto (CIV102 Structures and Materials). With Christine L. and Jocelyn Q.
-          </h3>
-          <p>This MATLAB script calculates the factor of safety for various bridge designs given a load of 400 N. It
-            creates an envelope shear force and considers various types of failure including plate buckling, flexural
-            compression, shear force in the glue and in the MATboard of the bridge, etc. This code was used to build an
-            850 g bridge out of matboard that supported a live load of 1000 N (100 times greater than its self-weight).
-            This result ranked us third place in the Engineering Science 2T6 class. For more details, please refer to
-            its <a href="https://github.com/elorie-bernard-lacroix/bridge-failure-load-calculator">GitHub repository</a>
-            and the <a href="CIV102 Project Team 804 Engineering Drawings.pdf">engineering drawings</a>.</p>
-
+          <h3>Final Project @ University of Toronto (CIV102 Structures and Materials). With Christine L. and Jocelyn Q.</h3>
+          <p>This MATLAB script calculates the factor of safety for various bridge designs given a load of 400 N. It creates an envelope shear force and considers various types of failure including plate buckling, flexural compression, shear force in the glue and in the MATboard of the bridge, etc. This code was used to build an 850 g bridge out of matboard that supported a live load of 1000 N (100 times greater than its self-weight). This result ranked us third place in the Engineering Science 2T6 class. For more details, please refer to its <a href="https://github.com/elorie-bernard-lacroix/bridge-failure-load-calculator">GitHub repository</a> and the <a href="CIV102 Project Team 804 Engineering Drawings.pdf">engineering drawings</a>.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="synonyms.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="synonyms.png" alt="Synonym detector example output">
         </div>
         <div class="portfolio__content">
           <h2>Synonym Detector</h2>
           <h3>Course Project @ University of Toronto (ESC180 Introdction to Computer Programming). With Chaewon L.</h3>
-          <p>This python program draws from data in two books and identifies the relationship between words to then
-            identify the synonym of a given word from a list of options in linear time. We were able to obtain a 70%
-            accuracy. For more details, please refer to the <a
-              href="https://github.com/elorie-bernard-lacroix/ESC180_Project3">GitHub repository</a></p>
-
+          <p>This python program draws from data in two books and identifies the relationship between words to then identify the synonym of a given word from a list of options in linear time. We were able to obtain a 70% accuracy. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project3">GitHub repository</a></p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="gomoku.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="gomoku.png" alt="Gomoku AI board interface">
         </div>
         <div class="portfolio__content">
           <h2>Gomoku AI</h2>
           <h3>Class Project @ University of Toronto (ESC180 Introduction to Computer Programming). With Chaewon L.</h3>
-          <p>Interacts with the user to imitate a game of Gomoku, and includes a built-in smart autonomous player. For
-            more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project2">GitHub
-              repository</a></p>
+          <p>Interacts with the user to imitate a game of Gomoku, and includes a built-in smart autonomous player. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project2">GitHub repository</a></p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="pendulum.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="pendulum.png" alt="Pendulum motion analysis plots">
         </div>
         <div class="portfolio__content">
           <h2>Modelling the motion of a pendulum</h2>
           <h3>Final Project @ University of Toronto (PHY180 Classical Mechanics).</h3>
-          <p>I used digital tracking software to analyze a pendulum's motion. After cleaning, processing and analyzing
-            thousands of lines of data from the video analysis, I expressed conclusions in this <a
-              href="https://drive.google.com/file/d/1qDNoHwfEQqw42YwO9qfTxLYW4AW9W18f/view?usp=sharing">report</a> typed
-            in LaTeX.</p>
+          <p>I used digital tracking software to analyze a pendulum's motion. After cleaning, processing and analyzing thousands of lines of data from the video analysis, I expressed conclusions in this <a href="https://drive.google.com/file/d/1qDNoHwfEQqw42YwO9qfTxLYW4AW9W18f/view?usp=sharing">report</a> typed in LaTeX.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="portfolio__container">
-        <div class="image">
-          <img src="SHAD.png">
+      <article class="portfolio__container">
+        <div class="portfolio__image">
+          <img src="SHAD.png" alt="SHAD gray water filtration concept">
         </div>
         <div class="portfolio__content">
           <h2>A gray water filtration system for sinks</h2>
           <h3>Design Project @ SHAD Canada.</h3>
-          <p>As a participant in SHAD Canada (a program that brings together top students across Canada to participate
-            in a design challenge), my team and I worked on a prototype that would be relatively inexpensive and could
-            filter the water from our sinks to be reused for other purposes. The <a
-              href="https://cad.onshape.com/documents/171c1113efa96bf1afb45eb0/w/e18fa9d5136250b4beae4d3b/e/72b174e36062b4749b5eaaf4?renderMode=0&uiState=65af34135c4cb40d0ebcf829">CAD
-              drawing</a> I made with one of my team members got recognized as the "Best CAD Model".</p>
+          <p>As a participant in SHAD Canada (a program that brings together top students across Canada to participate in a design challenge), my team and I worked on a prototype that would be relatively inexpensive and could filter the water from our sinks to be reused for other purposes. The <a href="https://cad.onshape.com/documents/171c1113efa96bf1afb45eb0/w/e18fa9d5136250b4beae4d3b/e/72b174e36062b4749b5eaaf4?renderMode=0&uiState=65af34135c4cb40d0ebcf829">CAD drawing</a> I made with one of my team members got recognized as the "Best CAD Model".</p>
         </div>
-      </div>
+      </article>
 
     </div>
 

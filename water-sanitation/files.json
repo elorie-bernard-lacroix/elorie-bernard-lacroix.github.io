@@ -1,0 +1,72 @@
+﻿{
+  "name": "Water Sanitation System",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Project Hub (Notion)",
+      "type": "file",
+      "path": "https://esc204.notion.site/",
+      "isTemplate": false
+    },
+    {
+      "name": "(1) Team Charter",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Open Team Charter Archive",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        }
+      ]
+    },
+    {
+      "name": "(2) Phase 2",
+      "type": "folder",
+      "children": [
+        {
+          "name": "(1) Value Propositions and Approaches",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        },
+        {
+          "name": "(2) Engineering Requirements",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        },
+        {
+          "name": "(3) Design Concept",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        }
+      ]
+    },
+    {
+      "name": "(3) Phase 3",
+      "type": "folder",
+      "children": [
+        {
+          "name": "(1) System Architecture and Specifications",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        },
+        {
+          "name": "(2) Prototype Subsystems",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        },
+        {
+          "name": "(3) Integrated Testing and Next Steps",
+          "type": "file",
+          "path": "https://esc204.notion.site/",
+          "isTemplate": false
+        }
+      ]
+    }
+  ]
+}
