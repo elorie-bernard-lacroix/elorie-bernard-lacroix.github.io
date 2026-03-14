@@ -1,0 +1,7 @@
+pandas
+numpy
+openpyxl
+# pathlib
+# itertools
+# multiprocessing
+# functools

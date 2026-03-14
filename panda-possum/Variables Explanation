@@ -1,0 +1,23 @@
+Length = Total length of canoe
+Lp = Length of paddlers’ “box” (distance btwn first and last paddler)
+Ld = Horizontal (x) Distance from bow to deepest point of canoe 
+Lf = Distance from bow to first paddler
+W = Nominal beam (max width) of canoe (the actual beam is in general smaller than this value due to the smoothing paramters
+t1 = Waterline smoothing parameter (bow side)
+t2 = Waterline smoothing parameter (stern side)
+d = Deepest canoe depth
+b = Bow rocker (how far up the bow is relative to deepest point of canoe)
+s = Stern rocker (how far up the stern is relative to deepest point of canoe)
+f = Flare angle of the flange
+shape_param/n= Cross-section shape parameter varying between 0 (rounded bottom) to 1 (flat bottom)
+density = density
+cp  = volumeofwaterDisplaced/(Waterline*hullcrosssectionarea). measures how close ur canoe looks like to a prism (higher cp means it looks more like a rectangular prisim)
+bowpower = exponent used for the curve of the bow (used as 4)
+sternpower =  exponent used for the curve of the stern (used as 4)
+numstations: Number of pieces we're splitting the canoe into for the  (101)
+increment = how long each section is 
+keel = longitudnal spine of the canoe
+totcm = total canoe mass (people + canoe)
+
+vertCenterMass = Vertical center of mass, different for males/females 
+.df = dataframe created 
