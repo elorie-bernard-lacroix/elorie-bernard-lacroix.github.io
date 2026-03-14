@@ -1,68 +1,83 @@
 ﻿{
-  "name": "PANDA-POSSUM Files",
-  "type": "folder",
-  "children": [
-    {
-      "name": "cc-code",
-      "type": "folder",
-      "children": [
-        {
-          "name": "data",
-          "type": "folder",
-          "children": [
-            {
-              "name": "input.xlsx",
-              "type": "file",
-              "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/data/input.xlsx"
-            },
-            {
-              "name": "output.csv",
-              "type": "file",
-              "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/data/output.csv"
-            },
-            {
-              "name": "output_run1.csv",
-              "type": "file",
-              "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/data/output_run1.csv"
-            }
-          ]
-        },
-        {
-          "name": "c4table.txt",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/c4table.txt"
-        },
-        {
-          "name": "canoe.py",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/canoe.py"
-        },
-        {
-          "name": "environment.yml",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/environment.yml"
-        },
-        {
-          "name": "main.py",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/main.py"
-        },
-        {
-          "name": "math_utils.py",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/math_utils.py"
-        },
-        {
-          "name": "requirements.txt",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/requirements.txt"
-        },
-        {
-          "name": "revised_possum_calc.py",
-          "type": "file",
-          "path": "https://github.com/University-of-Toronto-Concrete-Canoe/panda-possom/blob/main/cc-code/revised_possum_calc.py"
-        }
-      ]
-    }
-  ]
+    "name":  "PANDA-POSSUM Files",
+    "type":  "folder",
+    "children":  [
+                     {
+                         "name":  "cc-code",
+                         "type":  "folder",
+                         "children":  [
+                                          {
+                                              "name":  "data",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "input.xlsx",
+                                                                   "type":  "file",
+                                                                   "path":  "panda-possum/cc-code/data/input.xlsx"
+                                                               },
+                                                               {
+                                                                   "name":  "output.csv",
+                                                                   "type":  "file",
+                                                                   "path":  "panda-possum/cc-code/data/output.csv"
+                                                               },
+                                                               {
+                                                                   "name":  "output_run1.csv",
+                                                                   "type":  "file",
+                                                                   "path":  "panda-possum/cc-code/data/output_run1.csv"
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "c4table.txt",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/c4table.txt"
+                                          },
+                                          {
+                                              "name":  "canoe.py",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/canoe.py"
+                                          },
+                                          {
+                                              "name":  "environment.yml",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/environment.yml"
+                                          },
+                                          {
+                                              "name":  "main.py",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/main.py"
+                                          },
+                                          {
+                                              "name":  "math_utils.py",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/math_utils.py"
+                                          },
+                                          {
+                                              "name":  "requirements.txt",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/requirements.txt"
+                                          },
+                                          {
+                                              "name":  "revised_possum_calc.py",
+                                              "type":  "file",
+                                              "path":  "panda-possum/cc-code/revised_possum_calc.py"
+                                          }
+                                      ]
+                     },
+                     {
+                         "name":  "PANDA-POSSUM-2T6.bat",
+                         "type":  "file",
+                         "path":  "panda-possum/PANDA-POSSUM-2T6.bat"
+                     },
+                     {
+                         "name":  "University of Toronto - Astronautical - Enhanced Focus Area - 2026.pdf",
+                         "type":  "file",
+                         "path":  "panda-possum/University of Toronto - Astronautical - Enhanced Focus Area - 2026.pdf"
+                     },
+                     {
+                         "name":  "Variables Explanation",
+                         "type":  "file",
+                         "path":  "panda-possum/Variables Explanation"
+                     }
+                 ]
 }

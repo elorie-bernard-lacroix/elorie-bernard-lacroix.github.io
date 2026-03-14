@@ -253,7 +253,7 @@
     .files-section .section-desc {
       color: rgba(255, 255, 255, 0.45);
       font-size: 0.88rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       background: transparent;
       line-height: 1.7;
     }
@@ -261,6 +261,32 @@
     .files-section .section-desc span {
       color: #8CADA7;
       background: transparent;
+    }
+
+    .section-actions {
+      margin-bottom: 1.6rem;
+      background: transparent;
+    }
+
+    .repo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      font-size: 0.82rem;
+      letter-spacing: 0.4px;
+      color: rgba(140, 173, 167, 0.85);
+      border: 1px solid rgba(140, 173, 167, 0.3);
+      border-radius: 6px;
+      padding: 8px 12px;
+      background: rgba(140, 173, 167, 0.06);
+      transition: all 0.2s;
+    }
+
+    .repo-link:hover {
+      color: #8CADA7;
+      border-color: rgba(140, 173, 167, 0.6);
+      background: rgba(140, 173, 167, 0.1);
     }
 
     /* File explorer chrome */
@@ -517,7 +543,7 @@
         and a motor-driven dispensing mechanism — all coordinated by a microcontroller running custom
         <strong>Arduino firmware</strong>. All structural components were designed in
         <strong>Fusion 360</strong> and fabricated via 3D printing. Project coordination and documentation
-        were managed in Notion.
+        were managed in Notion, and artifacts are mirrored in this repository for direct public access.
       </p>
       <p>
         This page hosts all project files for public access — use the file browser below to explore
@@ -581,10 +607,15 @@
   <div class="files-section">
     <h2>Project Files</h2>
     <p class="section-desc">
-      All project files are hosted here as a public mirror of our SharePoint repository.
-      Click a folder to expand it and a file name to download or view it.
-      Entries marked <span>template</span> are placeholders — the real file will appear once uploaded.
+      All files below are loaded directly from the repository folder <span>water-sanitation/</span>.
+      Click a folder to expand it and a file name to view or download it.
     </p>
+    <div class="section-actions">
+      <a class="repo-link" href="https://github.com/elorie-bernard-lacroix/elorie-bernard-lacroix.github.io/tree/main/water-sanitation" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+        open full folder on GitHub
+      </a>
+    </div>
 
     <div class="file-explorer">
       <div class="file-explorer-toolbar">

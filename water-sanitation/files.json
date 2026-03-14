@@ -1,72 +1,782 @@
 ﻿{
-  "name": "Water Sanitation System",
-  "type": "folder",
-  "children": [
-    {
-      "name": "Project Hub (Notion)",
-      "type": "file",
-      "path": "https://esc204.notion.site/",
-      "isTemplate": false
-    },
-    {
-      "name": "(1) Team Charter",
-      "type": "folder",
-      "children": [
-        {
-          "name": "Open Team Charter Archive",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        }
-      ]
-    },
-    {
-      "name": "(2) Phase 2",
-      "type": "folder",
-      "children": [
-        {
-          "name": "(1) Value Propositions and Approaches",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        },
-        {
-          "name": "(2) Engineering Requirements",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        },
-        {
-          "name": "(3) Design Concept",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        }
-      ]
-    },
-    {
-      "name": "(3) Phase 3",
-      "type": "folder",
-      "children": [
-        {
-          "name": "(1) System Architecture and Specifications",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        },
-        {
-          "name": "(2) Prototype Subsystems",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        },
-        {
-          "name": "(3) Integrated Testing and Next Steps",
-          "type": "file",
-          "path": "https://esc204.notion.site/",
-          "isTemplate": false
-        }
-      ]
-    }
-  ]
+    "name":  "Water Sanitation System",
+    "type":  "folder",
+    "children":  [
+                     {
+                         "name":  "(1) Team Charter",
+                         "type":  "folder",
+                         "children":  [
+                                          {
+                                              "name":  "(1) Team_Process_Review_Mar062024.docx",
+                                              "type":  "file",
+                                              "path":  "water-sanitation/(1)%20Team%20Charter/(1)%20Team_Process_Review_Mar062024.docx"
+                                          },
+                                          {
+                                              "name":  "(2) v2_Team_Charter_Mar062024.docx",
+                                              "type":  "file",
+                                              "path":  "water-sanitation/(1)%20Team%20Charter/(2)%20v2_Team_Charter_Mar062024.docx"
+                                          },
+                                          {
+                                              "name":  "(3) v1_Team_Charter_Jan3120241.docx",
+                                              "type":  "file",
+                                              "path":  "water-sanitation/(1)%20Team%20Charter/(3)%20v1_Team_Charter_Jan3120241.docx"
+                                          }
+                                      ]
+                     },
+                     {
+                         "name":  "(2) Phase 2",
+                         "type":  "folder",
+                         "children":  [
+                                          {
+                                              "name":  "(1) Value Propositions and Approaches",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(1) v3_Value Proposition_Worksheet_March132024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(1)%20Value%20Propositions%20and%20Approaches/(1)%20v3_Value%20Proposition_Worksheet_March132024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(2) v2_Value Proposition_Worksheet_March082024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(1)%20Value%20Propositions%20and%20Approaches/(2)%20v2_Value%20Proposition_Worksheet_March082024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(3) v1_Value_Proposition_Worksheet_Feb022024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(1)%20Value%20Propositions%20and%20Approaches/(3)%20v1_Value_Proposition_Worksheet_Feb022024.docx"
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "(2) Engineering Requirements",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(1) v2_Requirements_Table_Mar132024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(2)%20Engineering%20Requirements/(1)%20v2_Requirements_Table_Mar132024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(2) v1_Requirements_Table_Feb142024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(2)%20Engineering%20Requirements/(2)%20v1_Requirements_Table_Feb142024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(3) Requirements_Table_Worksheet_Feb092024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(2)%20Engineering%20Requirements/(3)%20Requirements_Table_Worksheet_Feb092024.docx"
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "(3) Design Concept",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(1) v2_Selected_Design_and_Requirements_Assessment_Mar162024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(3)%20Design%20Concept/(1)%20v2_Selected_Design_and_Requirements_Assessment_Mar162024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(2) v1_Selected_Design_and_Preliminary_Requirements_Assessment_Feb172024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(3)%20Design%20Concept/(2)%20v1_Selected_Design_and_Preliminary_Requirements_Assessment_Feb172024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(3) Converging_on_Design Concept_Feb162024.vsdx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(3)%20Design%20Concept/(3)%20Converging_on_Design%20Concept_Feb162024.vsdx"
+                                                               },
+                                                               {
+                                                                   "name":  "(4) Diverging_on_Design Concept_Feb142024.vsdx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(2)%20Phase%202/(3)%20Design%20Concept/(4)%20Diverging_on_Design%20Concept_Feb142024.vsdx"
+                                                               },
+                                                               {
+                                                                   "name":  "Solar_Parabolic_Trough_Concept_Feb182024.url",
+                                                                   "type":  "file",
+                                                                   "path":  "https://a360.co/3T3PdXi"
+                                                               },
+                                                               {
+                                                                   "name":  "Water_Storage_Concept_Feb182024.url",
+                                                                   "type":  "file",
+                                                                   "path":  "https://a360.co/42MMx3q"
+                                                               }
+                                                           ]
+                                          }
+                                      ]
+                     },
+                     {
+                         "name":  "(3) Phase 3",
+                         "type":  "folder",
+                         "children":  [
+                                          {
+                                              "name":  "(1) System Architecture and Specifications",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(1) v2_Systems_Architecture_Mar132024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(1)%20System%20Architecture%20and%20Specifications/(1)%20v2_Systems_Architecture_Mar132024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(2) v2_Specification_Guide_Mar152024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(1)%20System%20Architecture%20and%20Specifications/(2)%20v2_Specification_Guide_Mar152024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(3) v1_Systems_Architecture_Mar082024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(1)%20System%20Architecture%20and%20Specifications/(3)%20v1_Systems_Architecture_Mar082024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(4) v1_Specification_Guide_Mar132024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(1)%20System%20Architecture%20and%20Specifications/(4)%20v1_Specification_Guide_Mar132024.docx"
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "(2) Prototype Subsystems",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(1) Parabolic Solar Trough",
+                                                                   "type":  "folder",
+                                                                   "children":  [
+                                                                                    {
+                                                                                        "name":  "(2) Actuators and Mechanisms Artifacts",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "3D Print Submission 1 - Motor Coupling.stl",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(2)%20Actuators%20and%20Mechanisms%20Artifacts/3D%20Print%20Submission%201%20-%20Motor%20Coupling.stl"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "3D Print Submission 2 - Trough with Motor Coupling.stl",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(2)%20Actuators%20and%20Mechanisms%20Artifacts/3D%20Print%20Submission%202%20-%20Trough%20with%20Motor%20Coupling.stl"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "3D Print Submission 3 - Trough Boards Case.stl",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(2)%20Actuators%20and%20Mechanisms%20Artifacts/3D%20Print%20Submission%203%20-%20Trough%20Boards%20Case.stl"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(3) Software Artifacts",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "(1) System Diagrams",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Auto Software State Diagram.png",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(1)%20System%20Diagrams/Auto%20Software%20State%20Diagram.png"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Trough Boards Circuit Diagram.png",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(1)%20System%20Diagrams/Trough%20Boards%20Circuit%20Diagram.png"
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(2) Code",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Code Drafts",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "button_led_test.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/button_led_test.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "debounce_bad.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/debounce_bad.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "levelsensor_test.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/levelsensor_test.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "limit_switch_detect_press.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/limit_switch_detect_press.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "spin_only.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/spin_only.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "spin_with_states_button_and_led.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/spin_with_states_button_and_led.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "spin_with_states_button_led_levelsensor.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/spin_with_states_button_led_levelsensor.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "spin_with_states_no_button.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/spin_with_states_no_button.py"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "time_bad.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Drafts/time_bad.py"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Code Final",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "final_code.py",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(3)%20Software%20Artifacts/(2)%20Code/Code%20Final/final_code.py"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(5) Testing Evidence",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "Test1_0.MOV",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(5)%20Testing%20Evidence/Test1_0.MOV"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Test1_1.MOV",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(5)%20Testing%20Evidence/Test1_1.MOV"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Test1_2.MOV",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(5)%20Testing%20Evidence/Test1_2.MOV"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(1) Solar_Trough_Design_Process_Mar192024.docx",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(1)%20Solar_Trough_Design_Process_Mar192024.docx"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(4) Testing Protocol_Solar_Trough_Apr032024.docx",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(4)%20Testing%20Protocol_Solar_Trough_Apr032024.docx"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(6) LED_Resistor_Calculation_Apr052024.docx",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(1)%20Parabolic%20Solar%20Trough/(6)%20LED_Resistor_Calculation_Apr052024.docx"
+                                                                                    }
+                                                                                ]
+                                                               },
+                                                               {
+                                                                   "name":  "(2) Automated Valves",
+                                                                   "type":  "folder",
+                                                                   "children":  [
+                                                                                    {
+                                                                                        "name":  "(1) Actuators and Mechanisms",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "(2) First Design (for the Design Review)",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "(2) Fusion File for First Design_Mar282024.url",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "https://a360.co/3TN7szz"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "(3) 3D Print Submission 1 - Valve Mechanism_Mar282024.3mf",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(2)%20First%20Design%20(for%20the%20Design%20Review)/(3)%203D%20Print%20Submission%201%20-%20Valve%20Mechanism_Mar282024.3mf"
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(3) Second Design (Final)",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "(1) Screenshot CAD Drawing_Apr062024.png",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(3)%20Second%20Design%20(Final)/(1)%20Screenshot%20CAD%20Drawing_Apr062024.png"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "(2) Fusion File for Final Design_Apr062024.url",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "https://a360.co/49wyDED"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "(3) 3D Print Submission 2 - Valve Mechanism_Apr052024.3mf",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(3)%20Second%20Design%20(Final)/(3)%203D%20Print%20Submission%202%20-%20Valve%20Mechanism_Apr052024.3mf"
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(5) Testing Videos",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "(1) Preliminary Tests",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(1) Preliminary_Test_for_Water_Flow_Mar282024.mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(1)%20Preliminary%20Tests/(1)%20Preliminary_Test_for_Water_Flow_Mar282024.mov"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(2) Preliminary_Torque_Test_Mar282024.mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(1)%20Preliminary%20Tests/(2)%20Preliminary_Torque_Test_Mar282024.mov"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(3) Preliminary_Test_for_Valve]_Control_Apr012024.mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(1)%20Preliminary%20Tests/(3)%20Preliminary_Test_for_Valve%5D_Control_Apr012024.mov"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "(2) Specification 1 - Water Flow",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(1) Curved Tubing Water Flow Test (04.02.2024).MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(2)%20Specification%201%20-%20Water%20Flow/(1)%20Curved%20Tubing%20Water%20Flow%20Test%20(04.02.2024).MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(2) Straight Tubing Water Flow Test (04.02.2024).mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(2)%20Specification%201%20-%20Water%20Flow/(2)%20Straight%20Tubing%20Water%20Flow%20Test%20(04.02.2024).mov"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "(3) Specification 2 - Restriction of Water flow",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(1) Diagram of Option 1 vs. Option 2.png",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(3)%20Specification%202%20-%20Restriction%20of%20Water%20flow/(1)%20Diagram%20of%20Option%201%20vs.%20Option%202.png"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(2) Option 1 (04.05.2024).mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(3)%20Specification%202%20-%20Restriction%20of%20Water%20flow/(2)%20Option%201%20(04.05.2024).mov"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "(3) Option 2 (04.05.2024).mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(5)%20Testing%20Videos/(3)%20Specification%202%20-%20Restriction%20of%20Water%20flow/(3)%20Option%202%20(04.05.2024).mov"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(1) Valve_Mechanisms_and_Actuators_Design_Process_Mar122024.docx",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(1)%20Valve_Mechanisms_and_Actuators_Design_Process_Mar122024.docx"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(4) Testing_Protocol_Apr082024.docx",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(1)%20Actuators%20and%20Mechanisms/(4)%20Testing_Protocol_Apr082024.docx"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(2) Software Specifications",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "(2) System Diagrams",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Auto Software Circuit Diagram.png",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(2)%20System%20Diagrams/Auto%20Software%20Circuit%20Diagram.png"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Auto Software State Diagram.pdf",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(2)%20System%20Diagrams/Auto%20Software%20State%20Diagram.pdf"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Auto Software State Diagram.vsdx",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(2)%20System%20Diagrams/Auto%20Software%20State%20Diagram.vsdx"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Software Integration.pptx",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(2)%20System%20Diagrams/Software%20Integration.pptx"
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(3) Arduino IDE",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Automation Drafts",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "integrate.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Automation%20Drafts/integrate.ino"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "sensors.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Automation%20Drafts/sensors.ino"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Automation Final",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Boiling_to_Hot.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Automation%20Final/Boiling_to_Hot.ino"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Hot_to_Cold.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Automation%20Final/Hot_to_Cold.ino"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Sensors",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "CircuitPython",
+                                                                                                                                                       "type":  "folder",
+                                                                                                                                                       "children":  [
+                                                                                                                                                                        {
+                                                                                                                                                                            "name":  "thermistor.py",
+                                                                                                                                                                            "type":  "file",
+                                                                                                                                                                            "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/CircuitPython/thermistor.py"
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name":  "water_level.py",
+                                                                                                                                                                            "type":  "file",
+                                                                                                                                                                            "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/CircuitPython/water_level.py"
+                                                                                                                                                                        }
+                                                                                                                                                                    ]
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "motor.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/motor.ino"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "sensors.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/sensors.ino"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "thermistor.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/thermistor.ino"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "water_level_sensor.ino",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(3)%20Arduino%20IDE/Sensors/water_level_sensor.ino"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(5) Software Test Videos",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Specification 2 Read the Water Level",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A1 0cm.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%202%20Read%20the%20Water%20Level/A1%200cm.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A2 2cm.mov",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%202%20Read%20the%20Water%20Level/A2%202cm.mov"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A3 6cm.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%202%20Read%20the%20Water%20Level/A3%206cm.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A4 10cm.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%202%20Read%20the%20Water%20Level/A4%2010cm.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A5 14cm.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%202%20Read%20the%20Water%20Level/A5%2014cm.MOV"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Specification 3 Boiling to Hot Water Tank",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A1 Cold Water in the Boiling Tank.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%203%20Boiling%20to%20Hot%20Water%20Tank/A1%20Cold%20Water%20in%20the%20Boiling%20Tank.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Edge Case.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%203%20Boiling%20to%20Hot%20Water%20Tank/Edge%20Case.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Hot Water in the Boiling Tank.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%203%20Boiling%20to%20Hot%20Water%20Tank/Hot%20Water%20in%20the%20Boiling%20Tank.MOV"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Specification 4 Hot to Cold Water Tank",
+                                                                                                                                  "type":  "folder",
+                                                                                                                                  "children":  [
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "A1 Hot Water in the Hot Water Tank.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%204%20Hot%20to%20Cold%20Water%20Tank/A1%20Hot%20Water%20in%20the%20Hot%20Water%20Tank.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Cold Water in the Hot Water Tank.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%204%20Hot%20to%20Cold%20Water%20Tank/Cold%20Water%20in%20the%20Hot%20Water%20Tank.MOV"
+                                                                                                                                                   },
+                                                                                                                                                   {
+                                                                                                                                                       "name":  "Edge Case.MOV",
+                                                                                                                                                       "type":  "file",
+                                                                                                                                                       "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(5)%20Software%20Test%20Videos/Specification%204%20Hot%20to%20Cold%20Water%20Tank/Edge%20Case.MOV"
+                                                                                                                                                   }
+                                                                                                                                               ]
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(1) System_Automation_Design_Process_Mar222024.docx",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(1)%20System_Automation_Design_Process_Mar222024.docx"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "(4) Testing_Protocol_System_Automation_Apr032024.docx",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(2)%20Automated%20Valves/(2)%20Software%20Specifications/(4)%20Testing_Protocol_System_Automation_Apr032024.docx"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    }
+                                                                                ]
+                                                               },
+                                                               {
+                                                                   "name":  "(3) Storage Tanks",
+                                                                   "type":  "folder",
+                                                                   "children":  [
+                                                                                    {
+                                                                                        "name":  "(3) Structural Sub-Subsystem",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "(1) Structure Design Process",
+                                                                                                             "type":  "folder",
+                                                                                                             "children":  [
+                                                                                                                              {
+                                                                                                                                  "name":  "Dimensions of Stairs.png",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/(1)%20Structure%20Design%20Process/Dimensions%20of%20Stairs.png"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Final Laser Cut.jpg",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/(1)%20Structure%20Design%20Process/Final%20Laser%20Cut.jpg"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Final Stairs with Tanks.jpg",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/(1)%20Structure%20Design%20Process/Final%20Stairs%20with%20Tanks.jpg"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Gluing Joints for Stairs.jpg",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/(1)%20Structure%20Design%20Process/Gluing%20Joints%20for%20Stairs.jpg"
+                                                                                                                              },
+                                                                                                                              {
+                                                                                                                                  "name":  "Potential Positioning on Structure.jpg",
+                                                                                                                                  "type":  "file",
+                                                                                                                                  "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/(1)%20Structure%20Design%20Process/Potential%20Positioning%20on%20Structure.jpg"
+                                                                                                                              }
+                                                                                                                          ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Structural Design Process.docx",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(3)%20Structural%20Sub-Subsystem/Structural%20Design%20Process.docx"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(4) Testing Evidence",
+                                                                                        "type":  "folder",
+                                                                                        "children":  [
+                                                                                                         {
+                                                                                                             "name":  "Test1_0.mov",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(4)%20Testing%20Evidence/Test1_0.mov"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Test1_1.mov",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(4)%20Testing%20Evidence/Test1_1.mov"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Test1_2.mov",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(4)%20Testing%20Evidence/Test1_2.mov"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "name":  "Test2_0.mov",
+                                                                                                             "type":  "file",
+                                                                                                             "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(4)%20Testing%20Evidence/Test2_0.mov"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(1) Storage_Tanks_Design_Process_Mar152024.docx",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(1)%20Storage_Tanks_Design_Process_Mar152024.docx"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "(2) Testing_Protocol_Storage_Tanks_Apr032024.docx",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/(2)%20Testing_Protocol_Storage_Tanks_Apr032024.docx"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "0106C_lasercutting.dwg",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/0106C_lasercutting.dwg"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "Boiler_and_Hot_Tank.3mf",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/Boiler_and_Hot_Tank.3mf"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "ColdTank.3mf",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/ColdTank.3mf"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "Initial_WaterStorage_Design.3mf",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/Initial_WaterStorage_Design.3mf"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "Preliminary Sketches of Tanks.png",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(2)%20Prototype%20Subsystems/(3)%20Storage%20Tanks/Preliminary%20Sketches%20of%20Tanks.png"
+                                                                                    }
+                                                                                ]
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "(3) Integrated Testing and Next Steps",
+                                              "type":  "folder",
+                                              "children":  [
+                                                               {
+                                                                   "name":  "(2) Testing Videos",
+                                                                   "type":  "folder",
+                                                                   "children":  [
+                                                                                    {
+                                                                                        "name":  "Test1_0.MOV",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(3)%20Integrated%20Testing%20and%20Next%20Steps/(2)%20Testing%20Videos/Test1_0.MOV"
+                                                                                    },
+                                                                                    {
+                                                                                        "name":  "Test2_0.MOV",
+                                                                                        "type":  "file",
+                                                                                        "path":  "water-sanitation/(3)%20Phase%203/(3)%20Integrated%20Testing%20and%20Next%20Steps/(2)%20Testing%20Videos/Test2_0.MOV"
+                                                                                    }
+                                                                                ]
+                                                               },
+                                                               {
+                                                                   "name":  "(1) Integrated_Prototype_Testing_Protocol_April062024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(3)%20Integrated%20Testing%20and%20Next%20Steps/(1)%20Integrated_Prototype_Testing_Protocol_April062024.docx"
+                                                               },
+                                                               {
+                                                                   "name":  "(3) Lessons_Learnt_Through_Integrated_Prototyping_Apr072024.docx",
+                                                                   "type":  "file",
+                                                                   "path":  "water-sanitation/(3)%20Phase%203/(3)%20Integrated%20Testing%20and%20Next%20Steps/(3)%20Lessons_Learnt_Through_Integrated_Prototyping_Apr072024.docx"
+                                                               }
+                                                           ]
+                                          },
+                                          {
+                                              "name":  "(4) Budget_Tracker.xlsx",
+                                              "type":  "file",
+                                              "path":  "water-sanitation/(3)%20Phase%203/(4)%20Budget_Tracker.xlsx"
+                                          }
+                                      ]
+                     },
+                     {
+                         "name":  "(4) Notion Page.url",
+                         "type":  "file",
+                         "path":  "https://esc204.notion.site/"
+                     },
+                     {
+                         "name":  "SP2_0106C_README.pdf",
+                         "type":  "file",
+                         "path":  "water-sanitation/SP2_0106C_README.pdf"
+                     }
+                 ]
 }

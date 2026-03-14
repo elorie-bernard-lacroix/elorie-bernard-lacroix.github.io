@@ -1,9 +1,10 @@
-﻿/PANDA-POSSUM 2T6/**
-/smart-study/**
+﻿/smart-study/**
 /water-sanitation/**
 !/panda-possum/
+!/panda-possum/**
 !/panda-possum/files.json
 !/smart-study/
 !/smart-study/files.json
 !/water-sanitation/
+!/water-sanitation/**
 !/water-sanitation/files.json

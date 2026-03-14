@@ -41,8 +41,10 @@ menu.addEventListener('click', mobileMenu);
 //   }
 // };
 
-window.addEventListener('scroll', highlightMenu);
-window.addEventListener('click', highlightMenu);
+if (typeof highlightMenu === 'function') {
+  window.addEventListener('scroll', highlightMenu);
+  window.addEventListener('click', highlightMenu);
+}
 
 //  Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
@@ -58,16 +60,16 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 
 //mix it up filter
-const mixer = mixitup('.portfolio__container', {
+if (typeof mixitup === 'function' && document.querySelector('.portfolio__container')) {
+  mixitup('.portfolio__container', {
     selectors: {
       target: '.portfolio__content'
     },
-
     animation: {
       duration: 300
     }
-
-})
+  });
+}
 
 const linkPortfolio = document.querySelectorAll('.portfolio__item')
 
