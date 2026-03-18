@@ -713,6 +713,15 @@ h3 {
   padding: 100px 8% 60px;
 }
 
+.portfolio p.portfolio-intro {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: -1.75rem;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
 .portfolio h2 {
   color: #fff;
   margin-bottom: 0.5rem;
@@ -794,6 +803,12 @@ h3 {
 
   .portfolio {
     padding: 100px 5% 40px;
+  }
+
+  .portfolio p.portfolio-intro {
+    font-size: 1rem;
+    margin-top: -1.25rem;
+    margin-bottom: 2rem;
   }
 
   .portfolio__container {
