@@ -81,11 +81,12 @@
       </div>
       <div class="about__content">
         <p>Hi, I'm Elorie :) <br><br></p>
-        <p>I'm a third-year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a> student
+        <p>I'm an <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a> student
           at the University of Toronto, specializing in <a
-            href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">Machine Intelligence</a>.
-          There are three things that I love more than anything: connecting with people, creating, and overcoming challenges. Through my
-          projects and work, I strive to build tools that improve people's everyday lives and set us up for a brighter future.
+            href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">Machine Intelligence</a>, and minoring in <a
+            href="https://undergrad.engineering.utoronto.ca/academics-registration/engineering-minors-certificates/environmental-engineering-minor/">Environmental Engineering</a>.
+          There are three things that I love more than anything: connecting with people and nature, building cool things, and dreaming about making our world a more equitable and safe place for everyone.
+          I've always enjoyed the problem-solving process behind software, robotics, and simluation but I hope to one day apply these skills in the climate tech, environmental engineering, and/or public health space. 
         </p>
       </div>
     </div>
@@ -95,60 +96,133 @@
 
   <!-- Professional & Community Experience Section -->
 
+  
+
   <div class="experience-container" id="experience">
     <h1>what I've been up to</h1>
-    <div class="experience" onclick="toggleDescription('experience1')">
-      <div class="dates">2024</div>
-      <h2>second year of university, co-op at BRP, working and living in the eastern townships of Quebec, humanoid robosoccer, reading textbooks and papers on AI  . . .</h2>
-      <div id="experience1" class="description">
-        <ul>
-          <li>Finished my second year of Engineering Science and chose to specialize in Machine Intelligence for my last two years. I’m currently reading a machine learning textbook and research articles in the field, while building a personal project in machine learning.</li>
-          <li>Joined the UofT humanoid robosoccer club as a software member. I got to participate in making the cutest little robots and mostly contributed to their computer vision. Now, I am working on their strategy code.  </li>
-          <li>I took a course in Intercultural Leadership & Communication. It completely changed the way I interpret people’s actions and words. Even the way that I express myself hasn’t been the same since. One thing that I’ve been especially thinking about is how everything we do, from the way we sit down to the words we speak, can hold meaning (whether we intend it to or not). This meaning is up to the interpretation of the observer, which is shaped by their experiences, their context, their story. My favourite quote from this course: “It’s a wonder we ever understand each other at all.”</li>
-          <li>Travelled around the Mediterranean with my mother, twin sister, and grandfather. Seeing their different life styles, food, values, city infrastructure, architecture, and history really made me realize the sheer amount of possibilities that exist when it comes to the way we choose to live our lives, organize ourselves, and connect with our communities.</li>
-          <li>Interned at BRP, a company in Quebec (originally part of Bombardier). Interning in Quebec was something that I had been wanting to do for a while. I spent most of my childhood summers in Quebec with my family and this was the first time I was going back for a full summer since the age of 15. At BRP I got a chance to work on two very exciting projects: building a Python package to automate battery tests and fixing a set of three dynamometers (used for testing vehicles). </li>
-          <li>Currently reading: Genius of Language</li>
-        </ul>
-      </div>
-    </div>
+    <p class="experience-intro">
+      A timeline of the projects, teams, and ideas that have shaped how I think as an engineer.
+    </p>
 
-    <div class="experience" onclick="toggleDescription('experience2')">
-      <div class="dates">2023</div>
-      <h2>first year of university, living in downtown Toronto, co-op at OPS, dragon boat nationals, experimenting with Kaggle . . . </h2>
-      <div id="experience2" class="description">
-        <ul>
-          <li>Finished my first year of Engineering Science where I met plenty of new people and got to work on very exciting projects like building a bridge out of matboard that could support a dynamic load of 1kN! For this project I wrote a program that could simulate various bridge designs and calculate their factors of safety for my team, and our final product got us third place out of our entire year! I also took one of my favourite courses yet, data structures & algorithms, and got to dip my toes into some interesting programming concepts like semantic similarity and dynamic programming!</li>
-          <li>Interned at the Ontario Public Service, as an IT systems assistant where I learned quite a bit about cybersecurity, IT lifecycles, and project management structures for big organizations. I worked with tools like Power BI for presentations and data visualization, Microsoft Visio for flow charts, and Microsoft Excel for compiling research.</li>
-          <li>Qualified for worlds at the Dragon Boat Canadian Championships. I have always loved sports and staying active in university was very important to me. So, during my first year, I decided to join the engineering dragon boat team at UofT, Iron Dragons. After so much hard work and dedication my team and I went to nationals and qualified for worlds!</li>
-          <li>Started taking courses on Kaggle and exploring the fascinating world of data and AI.</li>
-          <li>Favourite read of the year: Sacred balance (David Suzuki)</li>
-        </ul>
-      </div>
-    </div>
+    <div class="experience-timeline">
 
-    <div class="experience" onclick="toggleDescription('experience3')">
-      <div class="dates">2022</div>
-      <h2>graduated from my high school's IB program, first job in IT, robotics team captain, flutist, created my first personal website . . . </h2>
-      <div id="experience3" class="description">
-        <ul>
-          <li>Landed my first IT job as an IT technician at Canada’s Wonderland. I worked 20 hours a week during my second semester of high school and full time during the summer. I got to work with networks, POS systems, and peripherals. I absolutely fell in love with the process of troubleshooting and problem-solving with technology. </li>
-          <li>Team captain of my high school’s FRC robotics team. I was in robotics from grade 10 to grade 12. This club taught me a lot about programming, design, and technology, but it taught me even more about the process of learning, teaching, collaborating, and leading.</li>
-          <li>Flutist in my high school’s symphonic band, symphonic orchestra, and in a flute duet.</li>
-          <li>Graduated from my school’s IB program and got accepted into Engineering Science at the University of Toronto with three scholarships/awards!</li>
-          <li>Took certifications with IBM on Data Science Foundations and Blockchain technology.</li>
-          <li>I created my first personal website in HTML, CSS, and JavaScript. Since then, I've reiterated and it's become this :)</li>
-          <li>Favourite reads of the year: Hard-boiled Wonderland and the End of the World, Homodeus</li>
-        </ul>
-      </div>
+      <article class="experience-card">
+        <button
+          type="button"
+          class="experience-toggle"
+          id="experience-toggle-2026"
+          aria-expanded="true"
+          aria-controls="experience-2026"
+        >
+          <span class="experience-year">2026</span>
+          <span class="experience-summary">Profeessional Experience Year of my undergrad, SWE co-op at P&amp;G, UofT Concrete Canoe software, and Environmental Engineering Courses . . . </span>
+          <span class="experience-icon" aria-hidden="true"></span>
+        </button>
+        <div id="experience-2026" class="description visible" role="region" aria-labelledby="experience-toggle-2026">
+          <ul>
+            <li>Currently deep into my <strong>software engineering PEY</strong> at <strong>Procter and Gamble</strong> where I am working on building more <strong>webscraping applications</strong>, <strong>production-grade data pipelines</strong>, and more. I started to become more involved in the <strong>sustainability network</strong> and the <strong>Women in IT Supporting each other network</strong> :)</li>
+            <li>Led the development of a new <strong>software program</strong> for <strong>UofT Concrete Canoe</strong> that optimizes <strong>canoe designs</strong> based on multiple objectives and constraints.</li>
+            <li>Currently reading: <em>Computing the Climate</em>, <em>Just Sustainable Design</em></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <button
+          type="button"
+          class="experience-toggle"
+          id="experience-toggle-2025"
+          aria-expanded="true"
+          aria-controls="experience-2025"
+        >
+          <span class="experience-year">2025</span>
+          <span class="experience-summary">3rd year of my undergrad (first specialized year in ML/AI), SWE co-op at P&amp;G, UofT Concrete Canoe software, and Canadian Dragon Boat Championships . . .</span>
+          <span class="experience-icon" aria-hidden="true"></span>
+        </button>
+        <div id="experience-2025" class="description visible" role="region" aria-labelledby="experience-toggle-2025">
+          <ul>
+            <li>Completed my third year of undergrad and first specialized year in <strong>Machine Intelligence</strong>. I took some of my favourite courses yet in machine learning (including reinforcement learning, deep learning), data structures and algorithms, databases, and optimization.</li>
+            <li>Started my 16-month co-op as a <strong>software engineering intern at Procter & Gamble</strong>, where I built and maintained <strong>multiple production-grade pipelines</strong> and learned how software decisions affect cross-functional teams.</li>
+            <li>Led the development of a new <strong>software program</strong> for <strong>UofT Concrete Canoe</strong> that optimizes <strong>canoe designs</strong> based on multiple objectives and constraints.</li>
+            <li>Placed <strong>2nd at the 2025 Canadian Dragon Boat Championships</strong> in Montreal, qualifying my team for the 2026 World Championships.</li>
+            <li>Favourite read: <em><a href="https://arxiv.org/abs/2104.13478">Geometric Deep Learning:  Grids, Groups, Graphs, Geodesics, and Gauges</a></em> by Michael M. Bronstein, et al, <em>The Sacred Balance</em> by David Suzuki.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <button
+          type="button"
+          class="experience-toggle"
+          id="experience-toggle-2024"
+          aria-expanded="false"
+          aria-controls="experience-2024"
+        >
+          <span class="experience-year">2024</span>
+          <span class="experience-summary">2nd year of undergrad, SWE &amp; Robotics co-op at BRP, working and living in the Eastern Townships of Quebec, humanoid robosoccer, reading textbooks and papers on AI . . .</span>
+          <span class="experience-icon" aria-hidden="true"></span>
+        </button>
+        <div id="experience-2024" class="description" role="region" aria-labelledby="experience-toggle-2024">
+          <ul>
+            <li>Completed my second year of <strong>Engineering Science</strong> and chose to specialize in <strong>Machine Intelligence</strong> for my final two years. I'm currently reading a <strong>machine learning textbook</strong> and <strong>research articles</strong> in the field, while building a personal project in machine learning.</li>
+            <li>Joined the <strong>UofT humanoid robosoccer club</strong> as a <strong>software member</strong>. I got to participate in making the cutest little robots and mostly contributed to their <strong>computer vision</strong>. Now, I am working on their <strong>strategy code</strong>.  </li>
+            <li>I took a course in <strong>Intercultural Leadership & Communication</strong>. It completely changed the way I interpret people's actions and words. Even the way that I express myself hasn't been the same since. One thing that I've been especially thinking about is how everything we do, from the way we sit down to the words we speak, can hold meaning (whether we intend it to or not). This meaning is up to the interpretation of the observer, which is shaped by their experiences, their context, their story. My favourite quote from this course: “It’s a wonder we ever understand each other at all.”</li>
+            <li>Travelled around the <strong>Mediterranean</strong> with my mother, twin sister, and grandfather. Seeing their different life styles, food, values, city infrastructure, architecture, and history really made me realize the sheer amount of possibilities that exist when it comes to the way we choose to live our lives, organize ourselves, and connect with our communities.</li>
+            <li>Interned at <strong>BRP</strong>, a company in Quebec (originally part of Bombardier). Interning in Quebec was something that I had been wanting to do for a while. I spent most of my childhood summers in Quebec with my family and this was the first time I was going back for a full summer since the age of 15. At BRP I got a chance to work on two very exciting projects: building a <strong>Python package</strong> to automate <strong>battery tests</strong> and fixing a set of <strong>three dynamometers</strong> (used for testing vehicles). </li>
+            <li>Favourite reads: <em>Genius of Language</em>, <em>Circe</em></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <button
+          type="button"
+          class="experience-toggle"
+          id="experience-toggle-2023"
+          aria-expanded="false"
+          aria-controls="experience-2023"
+        >
+          <span class="experience-year">2023</span>
+          <span class="experience-summary">1st year of undergrad, IT co-op at OPS, dragon boat nationals, experimenting with Kaggle AI courses . . . </span>
+          <span class="experience-icon" aria-hidden="true"></span>
+        </button>
+        <div id="experience-2023" class="description" role="region" aria-labelledby="experience-toggle-2023">
+          <ul>
+            <li>Finished my first year of <strong>Engineering Science</strong> where I met plenty of new people and got to work on very exciting projects like building a bridge out of matboard that could support a <strong>dynamic load of 1kN</strong>! For this project I wrote a program that could simulate various bridge designs and calculate their <strong>factors of safety</strong> for my team, and our final product got us <strong>third place</strong> out of our entire year! I also took one of my favourite courses yet, <strong>data structures & algorithms</strong>, and got to dip my toes into some interesting programming concepts like <strong>semantic similarity</strong> and <strong>dynamic programming</strong>!</li>
+            <li>Interned at the <strong>Ontario Public Service</strong>, as an <strong>IT systems assistant</strong> where I learned quite a bit about <strong>cybersecurity</strong>, <strong>IT lifecycles</strong>, and <strong>project management</strong> structures for big organizations. I worked with tools like <strong>Power BI</strong> for presentations and data visualization, <strong>Microsoft Visio</strong> for flow charts, and <strong>Microsoft Excel</strong> for compiling research.</li>
+            <li>Qualified for <strong>worlds</strong> at the <strong>Dragon Boat Canadian Championships</strong>. I have always loved sports and staying active in university was very important to me. So, during my first year, I decided to join the <strong>engineering dragon boat team at UofT, Iron Dragons</strong>. After so much hard work and dedication my team and I went to nationals and qualified for worlds!</li>
+            <li>Started taking courses on <strong>Kaggle</strong> and exploring the fascinating world of <strong>data and AI</strong>.</li>
+            <li>Favourite read of the year: <em>Sacred balance</em> (David Suzuki)</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <button
+          type="button"
+          class="experience-toggle"
+          id="experience-toggle-2022"
+          aria-expanded="false"
+          aria-controls="experience-2022"
+        >
+          <span class="experience-year">2022</span>
+          <span class="experience-summary">graduated from my high school's IB program, first job in IT, robotics team captain, flutist, created my first personal website . . .</span>
+          <span class="experience-icon" aria-hidden="true"></span>
+        </button>
+        <div id="experience-2022" class="description" role="region" aria-labelledby="experience-toggle-2022">
+          <ul>
+            <li>Landed my first <strong>IT job</strong> as an <strong>IT technician</strong> at <strong>Canada's Wonderland</strong>. I worked 20 hours a week during my second semester of high school and full time during the summer. I got to work with <strong>networks</strong>, <strong>POS systems</strong>, and <strong>peripherals</strong>. I absolutely fell in love with the process of troubleshooting and problem-solving with technology. </li>
+            <li><strong>Team captain</strong> of my high school's <strong>FRC robotics team</strong>. I was in robotics from grade 10 to grade 12. This club taught me a lot about <strong>programming</strong>, <strong>design</strong>, and <strong>technology</strong>, but it taught me even more about the process of learning, teaching, collaborating, and leading.</li>
+            <li><strong>Flutist</strong> in my high school's <strong>symphonic band</strong>, <strong>symphonic orchestra</strong>, and in a <strong>flute duet</strong>.</li>
+            <li>Graduated from my school's <strong>IB program</strong> and got accepted into <strong>Engineering Science at the University of Toronto</strong> with three scholarships/awards!</li>
+            <li>Took certifications with <strong>IBM</strong> on <strong>Data Science Foundations</strong> and <strong>Blockchain technology</strong>.</li>
+            <li>I created my first personal website in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. Since then, I've reiterated and it's become this :)</li>
+            <li>Favourite reads of the year: <em>Hard-boiled Wonderland and the End of the World</em>, <em>Homodeus</em></li>
+          </ul>
+        </div>
+      </article>
     </div>
   </div>
-
-    <script>
-      function toggleDescription(id) {
-        var description = document.getElementById(id);
-        description.classList.toggle('visible');
-      }
-    </script>
 
     <!-- Portfolio Section -->
 

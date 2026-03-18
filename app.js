@@ -82,6 +82,55 @@ function activePortfolio(){
 }
 linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
+// Experience accordion
+const experienceToggles = document.querySelectorAll('.experience-toggle');
+
+const setExperienceState = (toggle, isOpen) => {
+  const panelId = toggle.getAttribute('aria-controls');
+  const panel = document.getElementById(panelId);
+
+  if (!panel) {
+    return;
+  }
+
+  toggle.setAttribute('aria-expanded', String(isOpen));
+  panel.classList.toggle('visible', isOpen);
+
+  if (isOpen) {
+    panel.style.maxHeight = `${panel.scrollHeight}px`;
+  } else {
+    panel.style.maxHeight = '0px';
+  }
+};
+
+if (experienceToggles.length) {
+  experienceToggles.forEach((toggle) => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    setExperienceState(toggle, expanded);
+
+    toggle.addEventListener('click', () => {
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+      experienceToggles.forEach((otherToggle) => {
+        if (otherToggle !== toggle) {
+          setExperienceState(otherToggle, false);
+        }
+      });
+
+      setExperienceState(toggle, !isExpanded);
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    experienceToggles.forEach((toggle) => {
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+      if (isExpanded) {
+        setExperienceState(toggle, true);
+      }
+    });
+  });
+}
+
 // #f9f9f9, #8cada7, #a5d0a8);
 //ctx.fillStyle = "white";
 //ctx.font = "30px Arial"
